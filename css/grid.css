@@ -1,0 +1,69 @@
+body {
+  background:#043667;
+}
+.container {
+  width:760px;
+  min-width:760px !important;
+  max-width:760px !important;
+}
+.grid-container {
+  background:url('../img/tile_grid.png') no-repeat;
+  margin:10px;
+}
+.grid-row {
+  position:relative;
+  width:740px;
+  height:200px;
+  margin:0 0 11px;
+}
+.grid-hero {
+  width:490px !important;
+  margin-top:5px;
+  margin-left:40px;
+}
+.grid-product{
+  width:240px !important;
+  height:410px;
+  margin:5px 0 0 10px;
+}
+.cta {
+  text-align:center;
+  margin-top:50px;
+}
+.cover {
+  position:absolute;
+  z-index:2;
+  background-color:rgba(0,0,0,.6);
+  width:240px;
+  height:20px;
+  bottom:0px;
+  border-top:1px solid #fff;
+  color:#fff;
+  padding:5px;
+}
+.cover .button {
+  background:url('../img/button.png') no-repeat;
+  width:150px;
+  height:35px;
+  margin:auto;
+}
+.grid-image {
+  position:absolute;
+  z-index:1;
+  top:0;
+  width:240px;  
+  height:200px;
+  margin:0;
+  background:white;
+  overflow:hidden;
+  cursor:pointer;
+}
+.tall {
+  height:410px;
+}
+.expand-center {
+  left:34%;
+}
+.expand-right {
+  right:-2px;
+}
